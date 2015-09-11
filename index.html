@@ -25,18 +25,28 @@ title: From the Trenches
         </div>
         <p>It's yet another software development-themed blog!  My aim here is to write down any musings about new technologies, design patterns,
            thought processes and human interactions that I've found interesting over my time as a dev.  I'll try to keep it as updated as possible,
-           but can in no way ensure that it'll be a) interesting, or b) amusing.</p>
+           but can in no way ensure that it'll be a) interesting, or b) amusing.
+        </p>
+
         <hr>
+
+		<h2>Projects</h2>
+		<p>
+			Here's some of the fun (ish) projects I've been working on recently. By all means click through and take a look - I'm always up for (constructive) feedback and/or criticism!
+		</p>
+
         <ul class="list-group">
             <li class="list-group-item"><a href="http://thesheps.github.io/lemonade">Lemonade</a>
                 <p>A feature-switching framework which allows you to move your configurations from app.configs to an Sql database or RESTful service.</p>
             </li>
         </ul>
 
-		<ul>
+		<h2>Posts</h2>
+
+		<ul class="list-group">
 		  {% for post in site.posts %}
-		    <li>
-		      <a href="{{ post.url }}">{{ post.title }}</a>
+		    <li class="list-group-item">
+		    <span>{{ post.date }} - <a href="{{ post.url }}">{{ post.title }}</a></span>
 		    </li>
 		  {% endfor %}
 		</ul>        
