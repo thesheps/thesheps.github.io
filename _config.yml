@@ -4,7 +4,7 @@ pygments: true
 url: http://vinitkumar.me/white-paper
 paginate: 8
 description:     Jekyll theme for Programmers
-intro: White Paper is a Jekyll theme most suited to be used on tech blogs that like their content to shine.
+intro: It's yet another software development-themed blog!
 logo:             logo.png
 disqus_shortname:
 # url: http://gotchacode.com
@@ -13,9 +13,9 @@ disqus_shortname:
 
 # Owner/author information
 owner:
-  name:           <your-name-here>
-  avatar:         <avatar-image-link>
-  email:          <your-email-address>
+  name:           Chris Shepherd
+  avatar:         http://www.gravatar.com/avatar/72b77fe50986a18f829fbb02f0972eb2?s=50
+  email:          thesheps@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:
   github:
