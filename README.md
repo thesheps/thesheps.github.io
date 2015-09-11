@@ -10,8 +10,8 @@ structure.
 
 - Install Jekyll from here(http://jekyllrb.com/)
 - Fork the project.
-- Change the fields in _config.yml.
-- Change the links in header.html.
+- Change the fields in _config.yml
+- Change the links in header.html.s
 
 Test the website live while editing the code:
 
