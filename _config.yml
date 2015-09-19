@@ -6,7 +6,7 @@ paginate: 8
 description:      From the Trenches
 intro: 			      It's yet another software development-themed blog!
 logo:             logo.png
-disqus_shortname: disqus_DnerZqRJ6G
+disqus_shortname: from-the-trenches
 # url: http://gotchacode.com
 #Comment out url when working locally to resolve base urls correctly
 #url:
