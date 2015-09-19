@@ -4,9 +4,9 @@ pygments: true
 url: http://thesheps.github.io/
 paginate: 8
 description:      From the Trenches
-intro: 			  It's yet another software development-themed blog!
+intro: 			      It's yet another software development-themed blog!
 logo:             logo.png
-disqus_shortname:
+disqus_shortname: disqus_DnerZqRJ6G
 # url: http://gotchacode.com
 #Comment out url when working locally to resolve base urls correctly
 #url:
@@ -18,7 +18,7 @@ owner:
   email:          thesheps@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        the_sheps
-  github:
+  github:         thesheps.github.com
   stackexchange:
   # For Google Authorship https://plus.google.com/authorship
   google_plus:
