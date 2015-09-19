@@ -6,7 +6,7 @@ comments: true
 categories:
 ---
 I've been trying to get out and do Park Runs for about 9 months or so now.  It gets me out of the house, and
-gives me something to do on a Saturday morning, other than just marinading in my own juices...
+gives me something to do on a Saturday morning, other than just marinating in my own juices...
 
 So today I went out and did my first Park Run as a 30 year old - I figured it's a habit I really want to stick.
 I've not managed to get out for a little while, chiefly owing to having been away for a few weeks on honeymoon
