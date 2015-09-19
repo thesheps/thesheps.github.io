@@ -22,8 +22,8 @@ Instead of simply up-skilling on different coding paradigms and patterns, there 
 integration concerns.  What scripting language do you use for build tasks?  How do you reduce your build time to ensure your pipeline
 doesn't get congested?  How do you negotiate releases across teams so as to manage dependencies?
 
-Whereas I used to return home and spend more time developing pet projects in order to "write more codez", I'm finding myself
-increasingly worried by the gaps in my knowledge with regards to delivery.
+Whereas I used to return home and spend more time developing pet projects in order to "write more codez" and subsequently sharpen
+my tools; now I find myself increasingly more burnt-out by the daily melee, and wondering if there's "something more to be done".
 
 
 When do you stop learning?
