@@ -13,7 +13,7 @@ Just last week, a colleague and I entered into an arrangement with an online cof
 I got delivered a 250g bag of vacuum-packed Columbian espresso; replete with tasting notes, and ground that same day specifically 
 for Aeropress consumption.
 
-Similarly - as a 30th birthday present, my wife bought me a subscription to <a href="http://flaviar.com>Flaviar.</a>  A dangerous
+Similarly - as a 30th birthday present, my wife bought me a subscription to <a href="http://flaviar.com">Flaviar.</a>  A dangerous
 thing indeed; they send you a "tasting pack of stuff" every month.  My first pack, "Star Spangled Bourbon", included a whole host
 of incredible Kentucky moonshine - all with tasting notes, in a sexy little presentation box.
 
