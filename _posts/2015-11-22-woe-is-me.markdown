@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Woe is me..."
+date: 2015-11-22 21:17:00
+comments: true
+categories: 
+---
+deque iterator not dereferencable
