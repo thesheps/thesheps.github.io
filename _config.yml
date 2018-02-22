@@ -1,5 +1,4 @@
 name: From the Trenches
-markdown: redcarpet
 pygments: true
 url: https://thesheps.github.io/
 paginate: 8
