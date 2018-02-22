@@ -1,7 +1,7 @@
 name: From the Trenches
 markdown: redcarpet
 pygments: true
-url: http://thesheps.github.io/
+url: https://thesheps.github.io/
 paginate: 8
 description:      From the Trenches
 intro: 			      It's yet another software development-themed blog!
