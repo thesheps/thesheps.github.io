@@ -23,6 +23,7 @@ defaults:
 
 future: true
 plugins:
+  - jemoji
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-sitemap
