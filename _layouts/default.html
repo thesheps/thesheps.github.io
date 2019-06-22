@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html>
-<head>
-  {% include head.html %}
-</head>
-<body>
-  {% include header.html %}
-  <div class="container">
-    <p class="intro">
-      {{ site.intro }}
-    </p>
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    {% include header.html %}
+    <div class="container">
+      <p class="intro">
+        {{ site.intro }}
+      </p>
 
-    <p>
-      I thought it might be jolly to start a little blog of my travels, experiences and life as a developer in the North-West of England.
-      I've also <a href="http://thesheps.github.io/lemonade/">made a feature-switching framework</a> which I hoped might be useful for someone?
-    </p>
+      <p>
+        Some words about the travels, experiences and life as a software
+        engineer in the North-West of England.
+      </p>
 
-    <hr/>
-  {{ content }}
+      <hr />
+      {{ content }}
 
-  {% include footer.html %}
-  </div><!-- /.main -->
-</body>
+      {% include footer.html %}
+    </div>
+    <!-- /.main -->
+  </body>
 </html>
