@@ -1,32 +1,32 @@
-name: From the Trenches
-pygments: true
-url: https://thesheps.github.io/
-paginate: 8
-description:      From the Trenches
-intro: 			      It's yet another software development-themed blog!
-logo:             logo.png
-disqus_shortname: from-the-trenches
-# url: http://gotchacode.com
-#Comment out url when working locally to resolve base urls correctly
-#url:
+title: From the Trenches
+description: "A blog about the travels, experiences and life as a software engineer in the North-West of England."
+author:
+  name: "thesheps"
+  email: "me@thesheps.dev"
+  url: "https://blog.thesheps.dev"
 
-# Owner/author information
-owner:
-  name:           Chris Shepherd
-  avatar:         http://www.gravatar.com/avatar/72b77fe50986a18f829fbb02f0972eb2?s=50
-  email:          thesheps@gmail.com
-  # Social networking links used in footer. Update and remove as you like.
-  twitter:        the_sheps
-  github:         thesheps.github.com
-  stackexchange:
-  # For Google Authorship https://plus.google.com/authorship
-  google_plus:
+baseurl: /
 
-# Analytics and webmaster tools stuff goes here
-google_analytics:
-google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 3
+paginate_path: /page/:num/
 
-# Links to include in top navigation
-# For external links add external: true
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+future: true
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+
+# Custom variables
+owner : "thesheps"
+year : "2018"
