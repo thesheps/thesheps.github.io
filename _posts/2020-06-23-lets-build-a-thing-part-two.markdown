@@ -61,7 +61,7 @@ so that we can subsequently used it to notify the world when something changes. 
 
 <script src="https://gist.github.com/thesheps/4abe3bf920d2dc93f2b58c09872231ea.js"></script>
 
-It's really that simple... Arguable this first test might be doing too much, but coming
+It's really that simple... Arguably this first test might be doing too much, but coming
 in at only 20 lines of code (including assertions); I'm pretty happy! Shall we
 refactor? I think we should. Right now we've got all the code in a single file. This is gonna get pretty hard to
 organise and maintain as the app grows, so let's move things about a little bit?
@@ -94,4 +94,40 @@ registered Observers are notified when it changes. The below gist is what I ende
 
 Here I'm using a simple TypeScript getter/setter combo to _hook_ into the setting of a simple
 property, and using that as a springboard to iterate over all the Observers and update them
-with the value that's changed. There are a few problems with this approach
+with the value that's changed. It doesn't feel like this is a particularly scalable approach,
+unfortunately :cry: - what happens when the number of props change? I really don't like the
+idea of every single Controller implementation to have to know about how to notify observers,
+and it feels a bit smelly to have to repeat this for every single property in my state.
+
+### Enter Proxy
+
+The **Proxy** design pattern is a popular one within the JavaScript community. It's essentially
+a mechanism to _trap_ properties with handlers which you can then decorate with additional
+functionality. Though the `Proxy` class gives you loads of different types of functionality
+you can configure, I purely want to use the `set` trap for every property of my
+**Controller's** state. Let's see what I ended up with (after a bit of soul-searching!!)
+
+<script src="https://gist.github.com/thesheps/8cd1447faf0abec307afac686ef36a7b.js"></script>
+
+There've been a few iterations to arrive at this design, but the crux of it is that:
+
+- The `Controller` class is now abstract. To use its functionality, you derive your own
+  implementation of Controller. The management of Observability is handled by the superclass
+  so we no longer have to worry about it!
+
+- Derived `Controller` instances now need to provide an implementation of a function called
+  `data`. This function returns a plain-old-javascript object which defines the initial state
+  of the `Controller`. Each Controller derivative is going to use this state variable for the
+  day-to-day gubbins of Controller management/lifecycle etc.
+
+- The `constructor` of the `Controller` class initialises a new, protected property called
+  `state`. This Proxy variable provides an implementation of the `set` trap which simply
+  iterates its Observables and calls `update`.
+
+That's kind of it! There are tests and such, also - you can find all the code at
+[my Github.](https://github.com/thesheps/toy-js).
+
+Next time we're going to continue to expand on this idea of observability by tying in a
+dependency on the real-life DOM!
+
+Peace :sunglasses:
