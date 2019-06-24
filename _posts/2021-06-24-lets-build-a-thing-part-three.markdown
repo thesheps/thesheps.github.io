@@ -45,7 +45,7 @@ Becomes:
 </div>
 ```
 
-Why double-moustaches? Because there may be legitimate reasons why consumers of my lovely library
+Why doubly-moustachiod? Because there may be legitimate reasons why consumers of my lovely library
 want to wrap pieces of text in single moustaches. Let's not cause them a headache! So it looks
 like there's another simple piece of functionality here that we can drive out in a couple of other
 tests! Let's do that thing:
@@ -74,4 +74,79 @@ to fail because the moustaches are no longer there :pensive: - Let's fix this!
 The latest version of the Toy class simply creates a deep clone of the original HTMLElement, and
 uses _that_ to find whatever moustaches are needed to be **ELIMINATED** from the DOM. This is an
 extremely naïve implementation of dynamic DOM rendering, but is working well for this latest test
-case!
+case. Just one thing, though - We've not actually "wired" this code up to an actual HTML page,
+yet. It is all conjecture, whimsy and caprice. Let's see about getting this sorted, as the old
+adage goes:
+
+<br />
+
+# Integrate Early and Often
+
+All I want to do here is serve a simple Index page, and have it construct an instance of Toy,
+using a script tag. This, too we can drive out with tests! The below gist shows the overall
+approach, and involves a couple of new **npm** dependencies, namely `supertest` and `express`.
+
+<script src="https://gist.github.com/thesheps/8cc467645411965508fe068d970dbe5d.js"></script>
+
+There are quite a few amendments to support this in the above Gist, so let's take them all
+individually.
+
+## app.js
+
+This code file sets up an extremely simple web app using express. It serves everything under the
+_dist_ path as static assets, and serves the file `index.html` on the default route.
+
+## server.js
+
+Here we just bootstrap the Express server and serve the above app on port 5678
+
+## index.html
+
+This is a simple skeletal html file with a single script reference which points to the transpiled
+toy.js which is produced by Webpack, using the ts-loader. Notice how the script is the last thing
+in the page? That's pretty important...
+
+## package.json
+
+Here I'm just pointing out the brand new, swanky `serve` task which is going to both transpile
+all of the tasty TypeScript into a single, transpiled artifact.
+
+## server.test.js
+
+Here we just establish that Express is functioning correctly. That we are serving a vanilla HTML
+page with a successful HTTP status code. We can continue to flesh this test out shortly, but for
+now this is the minimum amount of stuff I want to assert on, quite frankly!
+
+## index.ts
+
+This is the entry point for the application! It includes 3 exports. **Toy**, **Controller** and
+**MockController**. We're going to use MockController to bootstrap this trivial example, but
+we'll make sure to exclude it from the app going forwards!
+
+## webpack.config.js
+
+**This is dead important!!** As the context of toy-js is to be run in the browser, it's extremely
+important that the _library_ option here is configured. This has the effect of **namespacing** the
+transpiled JavaScript so that it is available in the browser. This, coupled with the fact that
+all of the TypeScript classes need to have a _named export_ is the key to making the library
+available from a web browser. This took me longer than I care to admit to figure out...
+
+<br>
+
+<center>
+  <img src="{{site.url}}/assets/posts/2019-06-24/et-voila.png">
+</center>
+
+<br>
+
+Et voila! I know there's been a bazillion things that I've explored in this post, but it largely
+boils down to a few main things. I've created a simple Toy class which is able to parse and
+manipulate the DOM. We've then given a little effort to creating a _dead simple_ test harness.
+We've learned a little more about our Webpack configuration, and specified a new default export
+file which is used to export all the types we might need in the final, transpiled distribution.
+
+My respect for the engineers behind React, Vue and other frameworks is growing exponentially! Next
+time I'll look at extending the tests here to include some performance feedback. How long does
+this thing take to render a simple parent div? What about child components?
+
+IT'S ALL TO PLAY FOR, BARRY!
