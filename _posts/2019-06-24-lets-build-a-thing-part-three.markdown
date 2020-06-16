@@ -11,6 +11,12 @@ categories:
   - react
   - vue
   - web components
+
+excerpt: "Fun with moustaches"
+header:
+  overlay_image: /assets/posts/2019-06-24/header.jpg
+  overlay_filter: 0.3
+  caption: "Photo credit: [Ketut Subiyanto on Pexels](https://pexels.com)"
 ---
 
 Welcome back! As I seem to have found my writing cadence I thought I'd keep on _ploughin' on_ with
@@ -21,8 +27,6 @@ this series of build-a-thing posts. You can find the previous posts
 - Configured my local dev environment for TypeScript.
 
 - Devved a really simple implementation of the [Observer Pattern](https://en.wikipedia.org/wiki/Observer_pattern)
-
-<br />
 
 With these bits and bobs in place I've got a really simple way of notifying components when
 anything changes in my state. The _really_ interesting bit comes next. I now want to build a
@@ -85,8 +89,6 @@ case. Just one thing, though - We've not actually "wired" this code up to an act
 yet. It is all conjecture, whimsy and caprice. Let's see about getting this sorted, as the old
 adage goes:
 
-<br />
-
 # Integrate Early and Often
 
 All I want to do here is serve a simple Index page, and have it construct an instance of Toy,
@@ -138,13 +140,9 @@ transpiled JavaScript so that it is available in the browser. This, coupled with
 all of the TypeScript classes need to have a _named export_ is the key to making the library
 available from a web browser. This took me longer than I care to admit to figure out...
 
-<br>
-
 <center>
   <img src="{{site.url}}/assets/posts/2019-06-24/et-voila.png">
 </center>
-
-<br>
 
 Et voila! I know there's been a bazillion things that I've explored in this post, but it largely
 boils down to a few main things. I've created a simple Toy class which is able to parse and

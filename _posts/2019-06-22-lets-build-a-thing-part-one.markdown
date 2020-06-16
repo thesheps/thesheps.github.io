@@ -11,6 +11,12 @@ categories:
   - react
   - vue
   - web
+
+excerpt: "Another JS Framework!! WHY NOT!?"
+header:
+  overlay_image: /assets/posts/2019-06-22/header.jpg
+  overlay_filter: 0.3
+  caption: "Photo credit: [Markus Spiske on Pexels](https://pexels.com)"
 ---
 
 My current run-rate for blogging is _not fantastic._ I have extremely good intentions,

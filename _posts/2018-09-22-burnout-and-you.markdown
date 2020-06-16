@@ -5,6 +5,12 @@ comments: true
 categories:
   - burnout
   - mental health
+
+excerpt: ""
+header:
+  overlay_image: /assets/posts/2018-09-22/header.jpg
+  overlay_filter: 0.3
+  caption: "Photo credit: [Sebastian Sørensen on Pexels](https://pexels.com)"
 ---
 
 I’ve been wading around the murky waters of various IT organisations for the past 11ish years, and have worked in many different roles with varying responsibilities throughout. This is the latest in a series of frequently-aborted attempts at blogging and brain-sharing. With any luck it’ll stick and you, dear reader, will remain in my thrall for many a moon.
@@ -13,8 +19,9 @@ What hastened me to put some words down this Friday evening was a link to this e
 
 <center>
 <img text="The lesser-spotted Linus Bird" src="https://cdn-images-1.medium.com/max/1600/1*hqqftPN4CRt1P3ZHimljPQ.png" />
-
 </center>
+
+<br />
 
 The thing that I found most jarring about Linus’ email (as I’m sure the rest of the community stumbled over whilst scanning the text) was the new-found clarity or mindfulness about his behaviour, his manner. In an unprecedented departure from the norm, Linus recognised that he had been a bit of a shit and had driven away many potential kernel maintainers in the process. But what had lead to this sudden epiphany? An intervention? A great flash of inspiration or spiritual enlightenment? Or was this something a little more subtle — had Linus’ fiery tenacity been eroded away over time? Had he simply given up?
 
@@ -30,6 +37,8 @@ Chances are you’ve already experienced Burnout. Whilst this is a malady that a
 <img src="https://cdn-images-1.medium.com/max/1600/0*euVXQZmJuuLgTSZR.jpg" />
 </center>
 
+<br />
+
 During a recent 2-day “spike” to create some tooling for our team I was confronted with an emotional conversation with one of my developers whom it seemed was feeling overwhelmed with the amount of stuff she was having to learn (and in this case, subsequently throw away: the spike failed to meet our criteria). I dealt with this by highlighting that she needn’t worry about “wasted learning”, as the tools we’d been using we will need to use again at some point. But in hindsight what I think I failed to recognise was that this was a cry for help — When will the learning stop?!
 
 Truly, the answer to this is never.
@@ -44,4 +53,6 @@ So the next time you feel as though you may be reaching capacity — make it
 <img src="https://cdn-images-1.medium.com/max/1600/1*JKsLBE8TYHdWuw9OjpsPpg.gif" />
 </center>
 
-Look after each other  —  You’re a long time in work, and nothing is worth sacrificing your mental well-being.
+<br />
+
+Look after each other  —  You’re a long time in work, and nothing is worth sacrificing your mental well-being for.

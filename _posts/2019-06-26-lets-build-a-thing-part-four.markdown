@@ -11,6 +11,12 @@ categories:
   - react
   - vue
   - web components
+
+excerpt: "Or where I realise I'm out of my depth..."
+header:
+  overlay_image: /assets/posts/2019-06-26/header.jpg
+  overlay_filter: 0.3
+  caption: "Photo credit: [Xavi Cavrera on Unsplash](https://unsplash.com)"
 ---
 
 Well, good morning :wave: - I hope that you've been enjoying the exploits over these last few
@@ -25,6 +31,8 @@ of value anywhere in my user stories :cry:
 <center>
   <img src="{{site.url}}/assets/posts/2019-06-26/trello.png">
 </center>
+
+<br/>
 
 So there!!
 
@@ -47,8 +55,6 @@ rendered, _all child pending changes are overwritten_ :confounded: To get over t
 I just needed to render out the `firstChild` of each node, and have some crazy recursive
 algorithm to ensure that every Child node of every parent node is descended and rendered
 (#descrendered).
-
-<br>
 
 ## But what about performance, eh?
 

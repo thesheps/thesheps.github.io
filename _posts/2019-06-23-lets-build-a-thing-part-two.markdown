@@ -11,6 +11,12 @@ categories:
   - react
   - vue
   - web components
+
+excerpt: "All the hats."
+header:
+  overlay_image: /assets/posts/2019-06-23/header.jpg
+  overlay_filter: 0.3
+  caption: "Photo credit: [Enrique Hoyos on Pexels](https://pexels.com)"
 ---
 
 So yesterday I embarked on this mad, audacious goal of trying to create a front-end
