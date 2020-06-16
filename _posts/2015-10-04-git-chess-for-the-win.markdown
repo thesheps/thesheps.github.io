@@ -1,9 +1,14 @@
 ---
-layout: post
 title: "GitChess - For the win!"
 date: 2015-10-04 11:31:00
 comments: true
-categories: chess git joy remote nerd geek
+categories:
+  - chess
+  - git
+  - joy
+  - remote
+  - nerd
+  - geek
 ---
 So I thought it might be a good idea to start including technical stuff in this technical/developer blog.  Fairly recently,
 my best friend moved to gay Paris for business.  Before leaving the country, we'd established a fun tradition of having a few

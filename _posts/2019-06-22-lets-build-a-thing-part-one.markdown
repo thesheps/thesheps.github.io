@@ -1,9 +1,16 @@
 ---
-layout: post
 title: "Let's Build a Thing! (Part One)"
 date: 2019-06-22 09:27:00
 comments: true
-categories: js, creativity, front-end, hack, typescript, react, vue, web
+categories:
+  - js
+  - creativity
+  - front-end
+  - hack
+  - typescript
+  - react
+  - vue
+  - web
 ---
 
 My current run-rate for blogging is _not fantastic._ I have extremely good intentions,

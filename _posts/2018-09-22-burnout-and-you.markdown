@@ -1,9 +1,10 @@
 ---
-layout: post
 title: "Burnout & You - Recognising the Signs"
 date: 2018-09-22 09:27:00
 comments: true
-categories: burnout, mental health
+categories:
+  - burnout
+  - mental health
 ---
 
 I’ve been wading around the murky waters of various IT organisations for the past 11ish years, and have worked in many different roles with varying responsibilities throughout. This is the latest in a series of frequently-aborted attempts at blogging and brain-sharing. With any luck it’ll stick and you, dear reader, will remain in my thrall for many a moon.

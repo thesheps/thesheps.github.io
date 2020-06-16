@@ -1,0 +1,32 @@
+comments:
+  allowedFields: ["name", "email", "url", "message"]
+
+  branch: "master"
+
+  commitMessage: "New comment by {fields.name}"
+
+  # (*) REQUIRED
+  #
+  # Destination path (filename) for the data files. Accepts placeholders.
+  filename: "comment-{@timestamp}"
+
+  format: "yaml"
+
+  generatedFields:
+    date:
+      type: "date"
+      options:
+        format: "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+
+  moderation: true
+  path: "docs/_data/comments/{options.slug}" # "_data/comments/{options.slug}" (default)
+
+  requiredFields: ["name", "email", "message"]
+
+  transforms:
+    email: md5
+
+  reCaptcha:
+    enabled: true
+    siteKey: "6LdRBykTAAAAAFB46MnIu6ixuxwu9W1ihFF8G60Q"
+    secret: "PznnZGu3P6eTHRPLORniSq+J61YEf+A9zmColXDM5icqF49gbunH51B8+h+i2IvewpuxtA9TFoK68TuhUp/X3YKmmqhXasegHYabY50fqF9nJh9npWNhvITdkQHeaOqnFXUIwxfiEeUt49Yoa2waRR7a5LdRAP3SVM8hz0KIBT4="

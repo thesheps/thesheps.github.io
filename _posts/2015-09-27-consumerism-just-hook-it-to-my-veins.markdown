@@ -1,9 +1,14 @@
 ---
-layout: post
 title: "Consumerism, or - just hook it to my veeeins!"
 date: 2015-09-27 14:30:00
 comments: true
-categories: consumerism internet awesome coffee booze gratification
+categories:
+  - consumerism
+  - internet
+  - awesome
+  - coffee
+  - booze
+  - gratification
 ---
 You can buy *anything* online these days.  More to the point - you can buy incredibly more awesome things, in a manner more 
 timely and absurdly convenient than I ever thought possible.

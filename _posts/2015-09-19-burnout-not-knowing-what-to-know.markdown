@@ -1,9 +1,12 @@
 ---
-layout: post
 title: "Burnout: Not knowing what to know."
 date: 2015-09-19 14:30:00
 comments: true
 categories:
+  - general
+  - mental health
+  - burnout
+  - anxiety
 ---
 I started this blog with the intention of contributing back to the community any thoughts and learnin's I've picked up
 over the years.  The main problem with this is that I get the impression everything has already been discussed,

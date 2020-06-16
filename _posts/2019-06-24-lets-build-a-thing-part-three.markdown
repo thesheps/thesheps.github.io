@@ -1,9 +1,16 @@
 ---
-layout: post
 title: "Let's Build a Thing! (Part Three)"
 date: 2019-06-24 08:44:00
 comments: true
-categories: js, creativity, front-end, hack, typescript, react, vue, web components
+categories:
+  - js
+  - creativity
+  - front-end
+  - hack
+  - typescript
+  - react
+  - vue
+  - web components
 ---
 
 Welcome back! As I seem to have found my writing cadence I thought I'd keep on _ploughin' on_ with

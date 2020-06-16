@@ -1,9 +1,10 @@
 ---
-layout: post
 title: "Hello again!"
 date: 2015-11-21 09:27:00
 comments: true
-categories: 
+categories:
+  - hobby coding
+  - c
 ---
 Oops, it's happened again!  Once more I've started a blog, run out of things to say and subsequently let the entire thing rot away.  Apologies!  In my defense
 I've been a busy boy both at work and home, and have been progressing a few fun projects which appear to have taken all my creative efforts.

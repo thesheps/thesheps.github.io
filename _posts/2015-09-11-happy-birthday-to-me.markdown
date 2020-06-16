@@ -1,9 +1,9 @@
 ---
-layout: post
 title: "Happy Birthday to me..."
 date: 2015-09-11 13:30:00
 comments: true
-categories: 
+categories:
+  - general
 ---
 
 Well I thought it a reasonably appropriate time to start a development blog on this, the day of my 30th birthday. 

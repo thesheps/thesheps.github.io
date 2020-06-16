@@ -1,9 +1,11 @@
 ---
-layout: post
 title: "The nights are closing in!"
 date: 2015-10-16 18:00:00
 comments: true
-categories: autumn code hobbies 
+categories:
+  - autumn
+  - code
+  - hobbies 
 ---
 
 The summer sun - seemingly a fleeting acquaintance this year, has bid farewell; leaving behind it chillier mornings, a craving for carbohydrates,
